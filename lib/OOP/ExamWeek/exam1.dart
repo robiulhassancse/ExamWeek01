@@ -21,8 +21,6 @@ class Student extends Person{
   String grade;
   List<double>courseScores=[];
 
-
-   // Student(super.name, super.age,super.address,this.studentID, this.grade, this.courseScores);
  Student(String name, int age, String address,this.studentID,this.grade):super(name,age,address);
 
  @override
@@ -55,7 +53,6 @@ class Teacher extends Person{
   int teacherId;
   List<String>courseTaught=[];
 
-  // Teacher(super.name,super.age,super.address, this.teacherId,this.courseTaught);
 Teacher(String name,int age,String address,this.teacherId):super(name,age,address);
   @override
   void displayRole() {
